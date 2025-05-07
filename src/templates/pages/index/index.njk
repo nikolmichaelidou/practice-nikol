@@ -1,5 +1,13 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-<main> index page content </main>
+<main>
+    <section>
+    <div class="wrapper">
+        <h1>Welcome to the Index Page</h1>
+        <p>This is the main content area.</p> 
+        {% include "partials/card.njk" %}
+    </div>
+    </section> 
+</main>
 {% endblock %}
